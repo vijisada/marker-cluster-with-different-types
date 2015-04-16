@@ -1,8 +1,9 @@
-# marker-cluster-with-different-types
-
-##This js function allows to add multiple categories or type which can be clustered and shown in a table on the google map.
-
-##add the js in the script
+##marker-cluster-with-different-types
+`<addr>`
+This js function allows to add multiple categories or type which can be clustered and shown in a table on the google map.
+`<addr>`
+##Add the js in the script
+```javascript
 <script type="text/javascript" src="js/markerclusterer_category.js" ></script>
 
 ##Create the object for the clusters
