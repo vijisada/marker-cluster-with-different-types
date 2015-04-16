@@ -43,4 +43,4 @@ var mcArray={};
 markerCluster = new MarkerClusterer(map, pointers,mcOptions,mcArray); 
 
 ##Screenshot
-![screen shot](markercluster-type.png)
+![screen shot](markercluster-type.PNG)
