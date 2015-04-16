@@ -1,28 +1,29 @@
 # marker-cluster-with-different-types
 
-Marker Cluster with Category
+##This js function allows to add multiple categories or type which can be clustered and shown in a table on the google map.
 
-
-This js function allows to add multiple categories or type which can be clustered and shown in a table on the google map.
-
-add the js in the script
+##add the js in the script
 <script type="text/javascript" src="js/markerclusterer_category.js" ></script>
 
-Create the object for the clusters
+##Create the object for the clusters
+```javascript
 var markerCluster;
 
-Create the object for the styles for different categories
+##Create the object for the styles for different categories
+```javascript
 var mcArray={};
 
 
-Create the category in the marker 
+##Create the category in the marker 
+```javascript
  var marker = new google.maps.Marker({
             position: latLng,
             mycategory:type 
  });
  
  
- Create styles for each category
+##Create styles for each category
+```javascript
   ////Green Style
  type='green';
  var climg=type+'-cluster';
@@ -36,6 +37,9 @@ Create the category in the marker
  ////Green Style
 	 
 	 
- Create and draw the clusters
+##Create and draw the clusters
  var mcOptions={gridSize: 80, maxZoom: maxzoom,zoomOnClick :false,minimumClusterSize:1};
 markerCluster = new MarkerClusterer(map, pointers,mcOptions,mcArray); 
+
+##Screenshot
+![screen shot](/images/markercluster-type.png)
